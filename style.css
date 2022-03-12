@@ -1,0 +1,53 @@
+.container{
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    background-color: darkgray;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    margin: 20px 0;
+}
+
+.dificulty {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.big-box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+.cell {
+    background-color: white;
+}
+
+.cell:hover {
+    background-color: wheat;
+}
+
+input {
+    width: 10px;
+    height: 10px;
+}
